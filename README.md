@@ -1,6 +1,6 @@
 # Racquet
 
-Racquet is a free, offline 3D tennis game for Chrome. Play in the toolbar popup or expand into a fullscreen game window.
+Racquet is a free 3D tennis game for Chrome. Play solo offline or challenge a friend online. Open it from the toolbar or expand into a fullscreen game window.
 
 This repository contains Racquet's public terms, privacy policy and support information. It does not contain the game's source code or assets.
 

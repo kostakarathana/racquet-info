@@ -1,18 +1,26 @@
 # Racquet — Terms and Conditions
 
-Effective date: October 1, 2026
+Effective date: October 3, 2026
 
 These terms apply to the Racquet Chrome extension maintained by [kostakarathana](https://github.com/kostakarathana).
 
 ## Playing Racquet
 
-You may install and play Racquet for your personal, lawful use. The game is free, works offline after installation, and has no accounts, purchases or subscriptions. Chrome and the Chrome Web Store have their own terms.
+You may install and play Racquet for your personal, lawful use. The game is free and has no accounts, purchases or subscriptions. Solo play works offline after installation; optional multiplayer needs an internet connection. Chrome and the Chrome Web Store have their own terms.
 
 Please do not use Racquet or its support channels to break the law, harm others, or infringe someone else's rights. Permission to play does not transfer ownership of the game or grant rights to redistribute its code or artwork. Any applicable third-party licenses remain in effect.
 
+## Multiplayer
+
+Multiplayer connects two players for a best-of-five match: the first player to win three rallies wins. These results do not count toward your solo best score.
+
+Display names are temporary nicknames, not accounts or verified identities. A name may already be in use. Invite people you intend to play with, and do not impersonate or harass others. You can decline an invitation or leave a match at any time.
+
+Multiplayer uses PeerJS connection services and relays, plus Google’s STUN service. Availability and connection quality depend on those services, both players' devices and their networks. Some firewalls or network configurations can prevent a connection. There is no guarantee of uninterrupted play, zero delay or permanent name availability.
+
 ## Local scores and privacy
 
-Scores and game state are stored locally as described in the [Privacy Policy](PRIVACY.md). There is no online backup or account recovery service. Clearing local extension data can erase your best score.
+Your solo best score and chosen display name are stored locally. Multiplayer connection information and gameplay are shared as described in the [Privacy Policy](PRIVACY.md). There is no online backup or account recovery service. Clearing local extension data can erase your best score and saved name.
 
 ## Availability and warranties
 
