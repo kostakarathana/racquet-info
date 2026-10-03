@@ -12,11 +12,11 @@ The extension does not read your browsing history or the contents of other websi
 
 ## Optional multiplayer
 
-Multiplayer uses the internet to connect two players. It starts when you choose Multiplayer, enter a display name and go online. It does not use Bluetooth or require a separate account. Both players must be online, and a player must accept an invitation before a match starts.
+Multiplayer works best with both players on the same Wi-Fi. An internet connection is needed to find and connect to the other player. It starts when you choose Multiplayer, enter a display name and go online. It does not use Bluetooth or require a separate account. Both players must be online, and a player must accept an invitation before a match starts.
 
 - **Finding a player:** your display name, the name you search for, connection identifiers and connection setup messages pass through PeerServer Cloud at `0.peerjs.com`. This lets the game find and connect to the other player. The service also receives your IP address as part of the connection.
-- **Making the connection:** the browser contacts Google’s STUN service (`stun.l.google.com`) and may use PeerJS TURN relays (`eu-0.turn.peerjs.com` or `us-0.turn.peerjs.com`) when a direct connection is unavailable. These services receive network addresses. A relay forwards encrypted game traffic between the browsers. Connection information, including IP addresses, may also be visible to the other player. An IP address can indicate an approximate location; Racquet does not use it to locate you.
-- **Playing:** the two browsers exchange display names, invitations, racquet movements, ball and match state, scores, timing and connection status. Gameplay travels over an encrypted WebRTC connection between players, directly or through a relay. The developer does not operate a server that stores matches or scores.
+- **Making the connection:** the browser contacts Google’s STUN service (`stun.l.google.com`) to help establish a direct connection. This service receives network addresses. Connection information, including IP addresses, may also be visible to the other player. An IP address can indicate an approximate location; Racquet does not use it to locate you.
+- **Playing:** the two browsers exchange display names, invitations, racquet movements, ball and match state, scores, timing and connection status. Gameplay travels directly between players over an encrypted WebRTC connection. The developer does not operate a server that stores matches or scores.
 
 Display names are nicknames, not verified identities. Anyone who knows your exact name can try to invite you while you are online. Choose a nickname that does not contain personal information. There is no chat, voice or video feature.
 

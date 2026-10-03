@@ -16,7 +16,7 @@ Multiplayer connects two players for a best-of-five match: the first player to w
 
 Display names are temporary nicknames, not accounts or verified identities. A name may already be in use. Invite people you intend to play with, and do not impersonate or harass others. You can decline an invitation or leave a match at any time.
 
-Multiplayer uses PeerJS connection services and relays, plus Google’s STUN service. Availability and connection quality depend on those services, both players' devices and their networks. Some firewalls or network configurations can prevent a connection. There is no guarantee of uninterrupted play, zero delay or permanent name availability.
+Multiplayer works best on the same Wi-Fi and needs internet access to find the other player. PeerServer Cloud and Google’s STUN service help establish a direct connection between players. Different networks may work when a direct connection is possible. Availability and connection quality depend on those services, both players' devices and their networks. Firewalls and network isolation can prevent a connection. There is no guarantee of uninterrupted play, zero delay or permanent name availability.
 
 ## Local scores and privacy
 
