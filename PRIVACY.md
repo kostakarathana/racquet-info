@@ -1,6 +1,6 @@
 # Racquet — Privacy Policy
 
-Effective date: October 3, 2026
+Effective date: October 5, 2026
 
 This policy describes the Racquet Chrome extension maintained by [kostakarathana](https://github.com/kostakarathana).
 
@@ -30,6 +30,7 @@ Racquet uses the browser's local storage for:
 
 - **Best score:** the number of successful returns in your best rally is kept under `racquet-best` until the extension's local storage is cleared.
 - **Display name:** `racquet-player-name` remembers the name you chose for multiplayer until you replace it or clear local storage.
+- **Help screen:** `racquet-help-opened` remembers whether you have opened How to play, so it does not automatically appear again. This flag stays on your device until local storage is cleared.
 - **Moving a rally between windows:** when the toolbar popup opens a game window, a temporary record contains the score, ball and racquet positions, rally timing and other game state, together with a random transfer identifier. The destination window reads and removes it. Records older than 30 seconds are not restored. An abandoned record is removed when the extension next initializes; it is not necessarily deleted exactly 30 seconds after creation.
 
 This information is used to provide the game. Your solo best score and window transfer records are not sent to other players or services. You can erase local information by clearing Racquet's extension storage in Chrome. The developer cannot recover your locally stored score.
